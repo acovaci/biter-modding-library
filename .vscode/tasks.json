@@ -1,0 +1,9 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "build-lib",
+        "command": "cargo task build && cargo task deploy",
+        "args": [],
+        "type": "shell"
+    }]
+}

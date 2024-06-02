@@ -1,0 +1,21 @@
+[package]
+name = "biter"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["tasks"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+frida-gum = { version = "0.13.6", features = [
+    "auto-download",
+    "invocation-listener",
+] }
+lazy_static = "1.4.0"
+libc = "0.2.155"
+log = "0.4.21"
+log4rs = "1.2.0"
+thiserror = "1.0.61"
