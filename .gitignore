@@ -118,6 +118,6 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,windows,linux,rust,rust-analyzer
 
 /.vscode/launch.json
-extra/insert_dylib
+/extra/insert_dylib
 build
 logs
